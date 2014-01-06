@@ -1,4 +1,5 @@
-PS1=">> \w: "
+export PS1=">> \w: "
+export EDITOR=/usr/local/bin/emacs
 
 ## Commonly used aliases
 alias fh="open -a Finder ."

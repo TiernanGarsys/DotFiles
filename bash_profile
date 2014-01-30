@@ -4,8 +4,6 @@ export EDITOR=/usr/local/bin/emacs
 ## Commonly used aliases
 alias fh="open -a Finder ."
 alias ll="ls -l"
-alias cis120="ssh cis120@croniac.seas.upenn.edu"
-alias cis1xx="ssh cis1xx@croniac.seas.upenn.edu"
 
 ## Path modifications
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH

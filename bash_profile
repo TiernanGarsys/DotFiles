@@ -16,9 +16,9 @@ alias 120web="cd ~/CIS120/14sp/web"
 
 
 ## SSH Aliases
-alias cis120="ssh cis120@croniac.seas.upenn.edu"
-alias cis1xx="ssh cis1xx@croniac.seas.upenn.edu"
-alias eniac="ssh tgarsys@eniac.seas.upenn.edu"
+alias ssh-120="ssh cis120@croniac.seas.upenn.edu"
+alias ssh-1xx="ssh cis1xx@croniac.seas.upenn.edu"
+alias ssh-eniac="ssh tgarsys@eniac.seas.upenn.edu"
 
 ## Path modifications
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH

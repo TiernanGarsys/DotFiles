@@ -9,6 +9,8 @@ Plug 'airblade/vim-gitgutter'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'universal-ctags/ctags'
+Plug 'keith/swift.vim'
+Plug 'ajh17/vimcompletesme'
 call plug#end()
 
 " Lightline configuration
@@ -42,6 +44,7 @@ let mapleader=" "
 
 map <C-o> :NERDTreeToggle %<CR>
 
+nnoremap : ' 
 nnoremap ; : 
 nnoremap : :Files<CR>
 

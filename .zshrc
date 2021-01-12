@@ -104,3 +104,5 @@ autoload -U promptinit; promptinit
 prompt pure
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

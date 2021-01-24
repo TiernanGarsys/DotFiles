@@ -6,8 +6,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug '/usr/local/opt/fzf'
-Plug 'junegunn/fzf.vim'
 Plug 'universal-ctags/ctags'
 Plug 'keith/swift.vim'
 Plug 'ajh17/vimcompletesme'
@@ -25,7 +23,7 @@ let g:lightline = {
 :set relativenumber 
 :set number
 :set expandtab
-:set tabstop=4
+:set tabstop=2
 :set autoread
 :set laststatus=2
 :set ignorecase
@@ -34,9 +32,10 @@ let g:lightline = {
 :set nobackup
 :set nowb
 :set noswapfile
-:set shiftwidth=4
+:set shiftwidth=2
 :set smarttab
 :set autochdir
+:set redrawtime=10000
 
 " Key remappings
 nnoremap <SPACE> <Nop>"

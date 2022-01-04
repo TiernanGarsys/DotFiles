@@ -1,3 +1,5 @@
+alias gs='git status'
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -103,7 +105,8 @@ fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
 
-# TODO(tiernan): debug this?
-# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+[[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f "/Users/tiernangarsys/.ghcup/env" ] && source "/Users/tiernangarsys/.ghcup/env" # ghcup-env
+alias gadd="git add ."
+alias gcam="git commit -am"

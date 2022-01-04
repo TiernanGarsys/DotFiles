@@ -22,6 +22,8 @@ alias gcm="git commit -m"
 alias gcam="git commit -am"
 alias gco="git checkout"
 
+alias updateweb="npm run predeploy && npm run deploy"
+
 alias ..="cd .." 
 alias ...="cd ../.."
 alias ....="cd ../../.."

@@ -4,11 +4,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug 'universal-ctags/ctags'
-Plug 'keith/swift.vim'
-Plug 'ajh17/vimcompletesme'
 call plug#end()
 
 " Lightline configuration
